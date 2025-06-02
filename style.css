@@ -53,7 +53,7 @@ body {
   padding: 0;
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 1.5rem;
 }
 
 .recipe-title {
@@ -107,6 +107,12 @@ body {
   margin-bottom: 1rem;
 }
 
+/* Ingredients */
+.ingredients {
+  padding-bottom: 2rem;
+  border-bottom: 1px solid var(--stone-150);
+}
+
 .ingredients ul {
   list-style-position: outside;
   padding-left: 1.5rem;
@@ -124,6 +130,12 @@ body {
 
 .ingredients ul li:last-child {
   margin-bottom: 0;
+}
+
+/* Instructions */
+.instructions {
+  padding-bottom: 2rem;
+  border-bottom: 1px solid var(--stone-150);
 }
 
 .instructions ol {
@@ -151,6 +163,7 @@ body {
   font-family: var(--font-outfit);
 }
 
+/* Nutrition */
 .nutrition-description {
   margin-bottom: 1rem;
 }
