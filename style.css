@@ -114,7 +114,7 @@ body {
 
 .ingredients ul li {
   margin-bottom: 0.5rem;
-  padding-left: 0.5rem;
+  padding-left: 1rem;
   line-height: 1.6;
 }
 
@@ -133,12 +133,8 @@ body {
 
 .instructions ol li {
   margin-bottom: 0.5rem;
-  padding-left: 0.5rem;
+  padding-left: 1rem;
   line-height: 1.6;
-}
-
-.instructions ol li::marker {
-  content: "🍳 ";
 }
 
 .instructions ol li:last-child {
@@ -147,6 +143,12 @@ body {
 
 .instructions ol li strong {
   font-weight: 700;
+}
+
+.instructions ol li::marker {
+  color: var(--brown-800);
+  font-weight: 600;
+  font-family: var(--font-outfit);
 }
 
 .nutrition-description {
